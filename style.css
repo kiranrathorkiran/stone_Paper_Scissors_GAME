@@ -1,0 +1,79 @@
+*
+{
+    margin:0px;
+    padding:0px;
+   
+}
+.choices
+{
+    width:100%;
+    height:100%;
+    padding-left: 10%;
+    display: flex;
+   
+}
+.gamechoice
+{    margin: auto;
+    align-items: center;
+    width:70%;
+    height:40%;
+    display: flex;
+   
+   
+}
+.gamechoice img{
+    margin:40px;
+    justify-content: space-between;
+
+}
+.gamechoice #rock
+{
+    color:blue;
+    margin-left: 50px;
+    align-items: center;
+}
+.gamechoice img:hover
+{    transition: all ease 1s;
+     scale: 1.2; 
+    rotate: 270deg;
+    cursor:pointer;
+filter: brightness(1.2);
+
+}
+.show 
+{   margin-left: 50px;
+   margin-top: 70px;
+   font-size: 20px;
+    width:80px;
+    height:100px;
+    background-color: #a06060;  
+}
+.select
+{
+    justify-content: center;
+}
+#inut1,#inut2
+{
+    background-color: black;
+    font-size: 30px;
+   padding:20px ;
+    align-content: center;
+   
+    color:#fff
+}
+.conteiner
+{
+    display: flex;
+}
+.conteiner .box
+{   margin-left: 200px;
+    margin-top: 70px;
+    font-size: 20px;
+    color:#FFF;
+    padding:10px;
+    
+    width:400px;
+    border-radius: 20%;
+    height:100px;
+    background-color: black;
+}
